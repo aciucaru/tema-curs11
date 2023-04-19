@@ -1,0 +1,146 @@
+*, *:before, *:after
+{
+    box-sizing: border-box;
+}
+
+.container-principal
+{
+    width: 500px;
+}
+
+.container-produse
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+
+    padding: 20px;
+    margin: 0px;
+}
+
+.item-produs
+{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+
+    padding: 10px;
+    margin: 0px;
+
+    border-radius: 10px;
+    border: solid 1px hsl(240, 5%, 30%);
+    background-image: linear-gradient(hsl(234, 10%, 30%), hsl(234, 10%, 23%));
+
+    box-shadow: 2px 2px 20px 2px hsla(0, 0%, 10%, 0.5);
+}
+
+.item-produs:hover
+{
+    border: solid 1px hsl(240, 2%, 40%);
+    background-image: linear-gradient(hsl(219, 20%, 40%), hsl(219, 20%, 33%));
+    box-shadow: 2px 2px 20px 2px hsla(0, 0%, 90%, 0.2);
+}
+
+.element-item
+{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+
+    width: 200px;
+
+    padding: 0px;
+    margin: 0px;
+
+    color: hsl(0, 0%, 75%);
+}
+
+.element-denumire
+{
+    width: 200px;
+}
+
+.element-pret
+{
+    width: 100px;
+}
+
+.element-stoc
+{
+    width: 100px;
+}
+
+.element-adauga
+{
+    width: 50px;
+}
+
+.input-adauga
+{
+    width: 50px;
+    height: 50px;
+
+    padding: 0px;
+    margin: 0px;
+
+    border-radius: 5px;
+    
+    border: solid 1px hsla(0, 0%, 100%, 0.0);
+    background-color: hsla(0, 0%, 100%, 0);
+    background-image: url('./../images/shopping-cart2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input-adauga:hover
+{
+
+    border: solid 1px hsl(240, 2%, 60%);
+    background-color: hsl(221, 9%, 50%);
+    box-shadow: 2px 2px 16px 4px hsla(0, 0%, 90%, 0.2);
+    background-image: url('./../images/shopping-cart.png');
+}
+
+.container-total-cos
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 20px;
+
+    width: 100%;
+
+    padding: 10px;
+    margin: 0px;
+}
+
+.total-cos
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 20px;
+
+    padding: 10px;
+    margin: 0px;
+}
+.total
+{
+    padding: 10px;
+    margin: 0px;
+    
+    border-radius: 10px;
+    border: solid 1px hsl(240, 5%, 30%);
+    background-image: linear-gradient(hsl(234, 10%, 30%), hsl(234, 10%, 23%));
+
+    box-shadow: 2px 2px 20px 2px hsla(0, 0%, 10%, 0.5);
+}
+

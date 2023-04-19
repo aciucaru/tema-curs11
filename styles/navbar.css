@@ -1,0 +1,46 @@
+*, *:before, *:after
+{
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 0px;
+
+    padding: 0px;
+    margin: 0px;
+
+    border-radius: 10px;
+    border: solid 1px hsl(240, 5%, 30%);
+    background-image: linear-gradient(hsl(234, 10%, 30%), hsl(234, 10%, 23%));
+
+    box-shadow: 2px 2px 20px 2px hsla(0, 0%, 10%, 0.5);
+}
+
+.navbar-item
+{
+    color: hsl(0, 0%, 80%);
+
+    padding: 10px;
+    margin: 0px;
+}
+
+.navbar-item:hover
+{
+    border: solid 1px hsl(240, 2%, 40%);
+    background-image: linear-gradient(hsl(219, 20%, 40%), hsl(219, 20%, 33%));
+    box-shadow: 2px 2px 20px 2px hsla(0, 0%, 90%, 0.2);
+}
+
+.navbar-link
+{
+    color: hsl(0, 0%, 80%);
+
+    padding: 0px;
+    margin: 0px;
+}
